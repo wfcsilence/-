@@ -1,0 +1,91 @@
+body {
+    background-color: rgba(226, 255, 217, 0.26);
+    scroll-behavior: smooth;
+    font-family: "华文中宋";
+    margin: 0 !important;
+}
+
+.header {
+    background-color: #65c99ad7;
+    color: white;
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 45px;
+}
+
+.right-part {
+    padding: 8px 0;
+    font-size: 1.2em;
+    width: auto;
+    float: right;
+    margin-right: 30px;
+}
+
+input {
+    border: 0px solid;
+    background-color: transparent;
+    font-size: 1em;
+    font-family: '宋体';
+}
+
+#info {
+    background-color: rgba(253, 253, 232, 0.87);
+    padding: 5px;
+    width: auto;
+    border-radius: 5px;
+    color: black;
+}
+
+#logo {
+    background-color: rgba(81, 180, 111, 0.548);
+    padding: 5px;
+    border-radius: 5px;
+    float: left;
+    font-size: 1.3em;
+    margin-top: 3px;
+    margin-left: 20px;
+}
+
+#test {
+    width: 60%;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    padding: 20px;
+    font-size: 1.2em;
+    text-indent: 2em;
+    line-height: 40px;
+    background-color: rgb(251, 255, 240);
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(41, 90, 41, 0.479), -2px -2px 8px rgba(41, 90, 41, 0.479);
+}
+
+#opb {
+    width: 90px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+#key {
+    float: left;
+    border: 0px solid;
+    border-radius: 10px;
+    background-color: transparent;
+    margin-top: 10px;
+    font-size: 1.2em;
+    width: 180px;
+}
+
+#check {
+    float: right;
+    border: 1px solid gold;
+    font-size: 1.3em;
+    margin-top: 10px;
+    margin-right: 40px;
+    padding: 5px;
+    cursor: alias;
+    border-radius: 10px;
+    background-color: rgba(255, 250, 176, 0.623);
+}

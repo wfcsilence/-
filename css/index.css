@@ -1,0 +1,64 @@
+body {
+    background-image: url("../image/2.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+    z-index: -10;
+    font-family: '华文中宋';
+}
+
+.header {
+    background-color: #65c99ad7;
+    color: white;
+}
+
+.right-part {
+    margin-top: -15px;
+}
+
+#logo {
+    background-color: rgba(127, 255, 212, 0.548);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#login,
+#logout {
+    background-color: rgba(253, 253, 232, 0.87);
+    color: black;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#dlg-login {
+    width: auto;
+    min-height: 0px;
+    max-height: none;
+    font-size: 1.2em;
+    height: 140px !important;
+    user-select: auto;
+    line-height: 25px;
+}
+
+#Hello {
+    font-size: 3em;
+    width: 46%;
+    margin-top: 24%;
+    margin-left: 27%;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    background-color: #65c99ae3;
+    box-shadow: 4px 4px 8px rgba(41, 90, 60, 0.664), -4px -4px 8px rgb(239, 250, 250);
+}
+
+#footer {
+    position: absolute;
+    bottom: 20px;
+    width: 16%;
+    left: 44%;
+    font-size: 1.2em;
+    letter-spacing: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(236, 231, 231);
+}
