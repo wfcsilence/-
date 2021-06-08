@@ -102,6 +102,6 @@ $(document).ready(function() {
     })
 
     $('#logo').click(function() {
-        alert("BNU-2019级教育技术学期末大作业");
+        alert("BNU-2019级教育技术学期末大作业\n小组成员：范宇轩、蒋芮、周千阳、温方辰");
     })
 })
