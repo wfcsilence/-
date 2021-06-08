@@ -8,11 +8,12 @@ foreach($_SESSION['tests'] as $value){
   if($test==$value){
     $index=(int)$_SESSION['index'];
     $index++;
-    echo $index;
+    //echo $index;
     $_SESSION['index']=$index;
   }
 }
-echo "<hr>".$_SESSION['index'];
+//echo "<hr>".$_SESSION['index'];
+//echo "<hr>";
 array_push($_SESSION['tests'],$test);
 $result=$link->query("select * from `questions` where point1='$test' or point2='$test' or point3='$test' or point4='$test'");
 $link = null;
@@ -39,5 +40,5 @@ if ($row) {/*如果数据存在，即题目获取成功*/
   $_SESSION['d']="选项D";
   $_SESSION['answer']="#";
 }
-echo "<br>".$info;
+echo $info;
 ?>
