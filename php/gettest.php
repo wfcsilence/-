@@ -4,11 +4,23 @@ include_once ("connect.php");
 
 session_start();
 $test=$_POST['url'];
-//echo "当前知识点为：".$test;
-
+foreach($_SESSION['tests'] as $value){
+  if($test==$value){
+    $index=(int)$_SESSION['index'];
+    $index++;
+    echo $index;
+    $_SESSION['index']=$index;
+  }
+}
+echo "<hr>".$_SESSION['index'];
+array_push($_SESSION['tests'],$test);
 $result=$link->query("select * from `questions` where point1='$test' or point2='$test' or point3='$test' or point4='$test'");
 $link = null;
-$row = mysqli_fetch_object($result);/*读取从数据库获取的数据*/
+for($i=0;$i<=$_SESSION['index'];$i++){
+  $row = mysqli_fetch_object($result);/*读取从数据库获取的数据*/
+}
+$_SESSION['index']=0;
+
 if ($row) {/*如果数据存在，即题目获取成功*/
   $info=1;
   $_SESSION['describe'] = $row->question_describe;
@@ -27,5 +39,5 @@ if ($row) {/*如果数据存在，即题目获取成功*/
   $_SESSION['d']="选项D";
   $_SESSION['answer']="#";
 }
-echo $info;
+echo "<br>".$info;
 ?>
