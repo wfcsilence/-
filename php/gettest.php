@@ -1,8 +1,6 @@
 <?php
 header("Content-Type: text/html; charset=UTF-8");
 include_once ("connect.php");
-
-session_start();
 $test=$_POST['url'];
 foreach($_SESSION['tests'] as $value){
   if($test==$value){
