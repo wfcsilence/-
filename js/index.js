@@ -65,6 +65,7 @@ $(document).ready(function() {
                     }, 5000); /*关闭模态框*/
                 } else if (flag == 2) {
                     $('#info').text('姓名或密码输入错误');
+                    //window.open("index.html", "_self");
                 }
             }
         });
