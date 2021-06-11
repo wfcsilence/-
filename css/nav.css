@@ -1,9 +1,9 @@
 .navigation-is-open main {
-    -webkit-transform: translateX(100%);
-    -moz-transform: translateX(100%);
-    -ms-transform: translateX(100%);
-    -o-transform: translateX(100%);
-    transform: translateX(100%);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%);
 }
 
 .cd-nav-trigger {
@@ -138,7 +138,7 @@
     left: 0;
     top: 0;
     height: 100%;
-    width: 0px;
+    width: 220px;
     z-index: 1;
     background-color: rgba(17, 101, 154, 0.726);
     overflow-x: hidden;
@@ -213,11 +213,11 @@ ul {
     -ms-transform: translateZ(0);
     -o-transform: translateZ(0);
     transform: translateZ(0);
-    -webkit-transform: translateX(-100%);
-    -moz-transform: translateX(-100%);
-    -ms-transform: translateX(-100%);
-    -o-transform: translateX(-100%);
-    transform: translateX(-100%);
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    transform: translateX(0%);
     -webkit-transition: -webkit-transform 0.35s;
     -moz-transition: -moz-transform 0.35s;
     transition: transform 0.35s;
@@ -227,11 +227,11 @@ ul {
 }
 
 .navigation-is-open .cd-nav .cd-navigation-wrapper {
-    -webkit-transform: translateX(0);
-    -moz-transform: translateX(0);
-    -ms-transform: translateX(0);
-    -o-transform: translateX(0);
-    transform: translateX(0);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%);
     -webkit-transition: -webkit-transform 0.5s;
     -moz-transition: -moz-transform 0.5s;
     transition: transform 0.5s;

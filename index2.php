@@ -18,7 +18,7 @@
 <body>
     <header class="header">
         <div class=" left-part ">
-            <b id="logo" style="color:aliceblue;">&nbsp;高 中 生 物 在 线 题 库&nbsp;</b>
+            <b id="logo" style="color:aliceblue;">&nbsp;高中生物在线题库&nbsp;</b>
         </div>
         <div class="right-part ">
             <div id="info">
